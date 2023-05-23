@@ -1,0 +1,36 @@
+/*section {
+  display: flex;
+  justify-content: center;
+}*/
+
+.slides {
+    max-width: 400px;
+    display: none;
+    text-decoration: none;
+}
+
+.slides--container--textbox {
+    overflow: hidden;
+    background-color: var(--fourth-color);
+    min-height: 94px;
+}
+
+.slides__p--breadtext {
+    display: none;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel--date {
+    margin-top: 0;
+    font-size: 0.6rem;
+}
+
+.img--container {
+    max-height: 337px;
+    background: var(--third-color);
+    overflow: hidden;
+}

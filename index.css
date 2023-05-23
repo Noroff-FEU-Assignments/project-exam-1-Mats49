@@ -1,0 +1,163 @@
+.headers-index {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+.div--hero__h2 {
+    font-size: 1rem;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px auto;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.div--hero {
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.index__hero--image {
+    max-width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 21px;
+    border: 3px solid var(--third-color);
+}
+
+.index__h2--latest {
+    font-size: 1.5rem;
+    flex: 1 1 100%;
+}
+
+.container--bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.p--blog-description {
+    max-width: 400px;
+}
+
+.carousel--container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px auto;
+}
+
+.button--container {
+    display: flex;
+    gap: 10px;
+}
+
+#backward--button {
+    border-radius: 21px 0 0 21px;
+}
+
+#forward--button {
+    border-radius: 0 21px 21px 0;
+}
+
+.btn--contact {
+    margin: 40px 0;
+}
+
+/* reuse comments styling for rewview*/
+
+.comments--container {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.comments--avatar {
+    width: 40px;
+    border-radius: 50px;
+    transform: translate(4px, 16px);
+}
+
+.blog--comment {
+    background: var(--fourth-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 21px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 15px auto;
+}
+
+.blog--comment p {
+    padding: 20px 0 0;
+}
+
+.comments--date {
+    font-size: 0.7rem;
+    color: white;
+}
+
+.testimonials {
+    display: block;
+}
+
+.carousel--container {
+    min-height: 345px;
+}
+
+.grid--wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.div--hero {
+    grid-column: 1/3;
+}
+
+.index__hero--image {
+    grid-column: 3/5;
+}
+
+.index__section--updates {
+    display: block;
+}
+
+.testimonials {
+    grid-column: 3/5;
+    max-width: 400px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.comments--avatar {
+    transform: none;
+    height: 40px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 833px) {
+    .wrapper--index {
+        padding: 20px;
+    }
+
+    .container--bottom {
+        gap: 40px;
+    }
+}
